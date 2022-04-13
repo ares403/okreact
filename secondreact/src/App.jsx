@@ -4,11 +4,12 @@ import Section from './components/Section'
 
 function App() {
 
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Section />
+        <Section name="bumsu" />
         <p>
           <a
             className="App-link"
